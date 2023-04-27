@@ -1,0 +1,156 @@
+/*Removes all borders, margins, and paddings from the html tag*/
+html {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*Sets the margins, paddings, font proterties, and bgcolor of the body tag*/
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  font-family: DM Sans;
+  font-size: 19px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  background-color: #f3decd;
+}
+
+/*Sets the paddings and font size of the header*/
+header {
+  padding: 0px;
+  font-size: 0px;
+}
+
+/*Styles the nav bar's margins, paddings, bgcolor, position, and layer*/
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: #59ABB1;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/*Sets the list style types of all ul in the nav to none*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Sets the display, text color, and text properties of all the a tags in the nav bar*/
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Styles the padding for all a tags in the class nav-items*/
+.nav-items {
+  padding: 22px 22px;
+}
+
+/*Styles the padding and floats the nav-logo*/
+.nav-logo {
+  padding-top: 8px;
+  float: left;
+}
+
+/*Makes everything in the class nav-left float left*/
+.nav-left {
+  float: left;
+}
+
+/*Makes everything in the class nav-right float right*/
+.nav-right {
+  float: right;
+}
+
+/*Styles the bgcolor when you hover over the nav-items class*/
+.nav-items:hover {
+  background-color: #41868B;
+}
+
+/*Styles the bgcolor of the login class*/
+.signup {
+  background-color: black;
+}
+
+/*Sets the padding and bgcolor of the content class*/
+.content {
+  padding: 80px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fdf9f6;
+}
+
+/*Styles everything in the content-float class float right*/
+.content-float {
+  display: inline-block;
+}
+
+/*Sets the text properties and margin of all h1 tags in the content class*/
+.content h1 {
+  letter-spacing: 1.2px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/*Sets the text decoration and text color of all a tags in the classes link and contact-ul*/
+.link a, .contact-ul a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Styles the padding and width of the login-intro class*/
+.signup-intro {
+  padding: 30px;
+  width: 46%;
+}
+
+/*Styles everything in the login-info class*/
+.signup-info {
+  width: 46%;
+  float: right;
+  border: 2px solid #41868B;
+  border-radius: 25px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+/*Sets the padding of the info-p class*/
+.info-p {
+  padding: 30px;
+}
+
+/*Sets the margin of the u-p class*/
+.u-p {
+  margin-bottom: 0px;
+}
+
+/*Styles everything in the info-h class*/
+.info-h {
+  background-color: #346B6F;
+  color: #fdf9f6;
+  border: 2px solid #346B6F;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/*Styles everything in the info-button class*/
+.info-button {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #556b2f;
+  color: #fdf9f6;
+  border-color: #556b2f;
+  margin-top: 20px;
+}
